@@ -477,7 +477,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/wood/f13/carpet,
+/turf/open/floor/carpet/brown,
 /area/f13/ncr)
 "bC" = (
 /obj/structure/window/fulltile/house{
@@ -1256,13 +1256,15 @@
 /turf/closed/wall/rust,
 /area/f13/legion)
 "ea" = (
-/obj/structure/closet/crate/footlocker,
 /obj/item/clothing/shoes/f13/military/ncr_officer_boots{
 	name = "NCR dress boots"
 	},
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack,
 /obj/item/clothing/head/beret/ncr_dresscap,
+/obj/structure/closet/crate/footlocker{
+	anchored = 1
+	},
 /turf/open/indestructible/ground/outside/ruins{
 	icon_state = "rubbleslab"
 	},
@@ -1426,6 +1428,12 @@
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"eH" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/transparent/openspace,
+/area/f13/wasteland)
 "eI" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4;
@@ -2217,7 +2225,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/clinic)
 "hm" = (
-/turf/open/floor/wood/f13/carpet,
+/turf/open/floor/carpet/brown,
 /area/f13/ncr)
 "ho" = (
 /obj/structure/chair{
@@ -4072,7 +4080,7 @@
 /area/f13/pitrats)
 "nd" = (
 /obj/machinery/door/unpowered/secure_NCR,
-/turf/open/floor/wood/f13/carpet,
+/turf/open/floor/carpet/brown,
 /area/f13/ncr)
 "ne" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4460,6 +4468,10 @@
 	name = "metal plating";
 	sunlight_state = 1
 	},
+/area/f13/wasteland)
+"om" = (
+/obj/structure/railing,
+/turf/open/transparent/openspace,
 /area/f13/wasteland)
 "on" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5286,6 +5298,13 @@
 /obj/structure/table/wood,
 /turf/open/floor/f13/wood/outside,
 /area/f13/wasteland)
+"qC" = (
+/obj/structure/barricade/sandbags,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/f13/wood/outside,
+/area/f13/wasteland)
 "qD" = (
 /turf/closed/wall/f13/ruins,
 /area/f13/kebab)
@@ -6005,10 +6024,6 @@
 	icon_state = "oakfloor3"
 	},
 /area/f13/legion)
-"sC" = (
-/obj/machinery/door/unpowered/secure_NCR,
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/ncr)
 "sD" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/merchant)
@@ -7060,6 +7075,12 @@
 	sunlight_state = 1
 	},
 /area/f13/raiders)
+"vO" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/f13/wood/outside,
+/area/f13/wasteland)
 "vP" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -7379,13 +7400,15 @@
 	},
 /area/f13/legion)
 "wM" = (
-/obj/structure/closet/crate/footlocker,
 /obj/item/clothing/shoes/f13/military/ncr_officer_boots{
 	name = "NCR dress boots"
 	},
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack,
 /obj/item/clothing/head/beret/ncr_dresscap,
+/obj/structure/closet/crate/footlocker{
+	anchored = 1
+	},
 /turf/open/floor/plasteel/grimy,
 /area/f13/ncr)
 "wN" = (
@@ -9844,6 +9867,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
+"EI" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/f13/wood/outside,
+/area/f13/wasteland)
 "EJ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -11496,7 +11525,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/wood/f13/carpet,
+/turf/open/floor/carpet/brown,
 /area/f13/ncr)
 "JY" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -12648,7 +12677,7 @@
 /area/f13/caves)
 "NN" = (
 /obj/machinery/light,
-/turf/open/floor/wood/f13/carpet,
+/turf/open/floor/carpet/brown,
 /area/f13/ncr)
 "NO" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -15369,7 +15398,7 @@
 /area/f13/building)
 "Wq" = (
 /obj/structure/railing,
-/turf/open/floor/wood/f13/carpet,
+/turf/open/floor/carpet/brown,
 /area/f13/ncr)
 "Ws" = (
 /obj/structure/table,
@@ -28329,7 +28358,7 @@ wM
 qK
 hW
 hW
-sC
+rw
 hW
 EZ
 EZ
@@ -28595,15 +28624,15 @@ EZ
 lC
 lC
 da
-da
-da
-da
-da
-da
-da
-lC
-da
-da
+vO
+vO
+vO
+vO
+vO
+vO
+qC
+vO
+vO
 da
 da
 lC
@@ -28850,8 +28879,9 @@ EZ
 EZ
 EZ
 EZ
-EZ
+om
 Ep
+eH
 EZ
 EZ
 EZ
@@ -28859,10 +28889,9 @@ EZ
 EZ
 EZ
 EZ
-EZ
-EZ
+om
 Ep
-EZ
+eH
 EZ
 EZ
 EZ
@@ -29109,7 +29138,7 @@ da
 da
 da
 da
-da
+EI
 pc
 pc
 pc
