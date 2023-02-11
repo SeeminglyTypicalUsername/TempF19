@@ -1828,9 +1828,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
-"aMc" = (
-/turf/open/floor/carpet/brown,
-/area/f13/ncr)
 "aMl" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/f13{
@@ -3537,7 +3534,7 @@
 	id = "side"
 	},
 /obj/machinery/door/unpowered/secure_NCR,
-/turf/open/floor/wood/f13/carpet,
+/turf/open/floor/carpet/brown,
 /area/f13/ncr)
 "buP" = (
 /obj/structure/flora/grass/wasteland{
@@ -10927,6 +10924,9 @@
 	icon_state = "verticalleftborderleft0"
 	},
 /area/f13/wasteland)
+"eHk" = (
+/turf/open/floor/carpet/brown,
+/area/f13/ncr)
 "eHt" = (
 /obj/structure/flora/tree/cactus,
 /turf/open/indestructible/ground/outside/desert{
@@ -66494,7 +66494,7 @@ ktB
 ukQ
 aSo
 cCh
-aMc
+eHk
 hvF
 fvF
 dcK
@@ -66750,8 +66750,8 @@ ktB
 (40,1,1) = {"
 ukQ
 xrZ
-aMc
-aMc
+eHk
+eHk
 aSo
 cuG
 dcK
@@ -67265,7 +67265,7 @@ ktB
 ukQ
 xrZ
 viD
-aMc
+eHk
 hYp
 bMo
 bMo
@@ -67779,7 +67779,7 @@ ktB
 ukQ
 aSo
 viD
-aMc
+eHk
 aSo
 aSo
 aSo
@@ -68036,12 +68036,12 @@ ktB
 ukQ
 aSo
 cCh
-aMc
-aMc
-aMc
+eHk
+eHk
+eHk
 iah
-aMc
-aMc
+eHk
+eHk
 rDP
 aSo
 xrZ
@@ -68292,13 +68292,13 @@ ktB
 (46,1,1) = {"
 ukQ
 aSo
-aMc
-aMc
-aMc
-aMc
-aMc
-aMc
-aMc
+eHk
+eHk
+eHk
+eHk
+eHk
+eHk
+eHk
 rDP
 aSo
 xrZ
