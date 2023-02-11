@@ -13344,12 +13344,6 @@
 "fCg" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
-"fCp" = (
-/obj/structure/destructible/tribal_torch/lit,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	color = "#e4e4e4"
-	},
-/area/f13/legion)
 "fCB" = (
 /obj/structure/window/fulltile/wood,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -18638,13 +18632,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "hFY" = (
-/obj/effect/overlay/junk/oldpipes{
-	layer = 2
-	},
-/obj/structure/destructible/tribal_torch/lit{
-	layer = ABOVE_MOB_LAYER;
-	pixel_x = -8
-	},
+/obj/structure/destructible/tribal_torch/lit,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	color = "#e4e4e4"
 	},
@@ -22895,15 +22883,10 @@
 	},
 /area/f13/raiders)
 "juF" = (
-/obj/structure/destructible/tribal_torch/lit{
-	layer = ABOVE_MOB_LAYER;
-	light_power = 0.7;
-	light_range = 5;
-	pixel_x = 8
-	},
 /obj/structure/decoration/legion/tentpole{
 	pixel_x = 15
 	},
+/obj/structure/destructible/tribal_torch/lit,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	color = "#e4e4e4"
 	},
@@ -24870,15 +24853,10 @@
 	},
 /area/f13/building)
 "klk" = (
-/obj/structure/destructible/tribal_torch/lit{
-	layer = ABOVE_MOB_LAYER;
-	light_power = 0.7;
-	light_range = 5;
-	pixel_x = -7
-	},
 /obj/structure/decoration/legion/tentpole{
 	pixel_x = -16
 	},
+/obj/structure/destructible/tribal_torch/lit,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	color = "#e4e4e4"
 	},
@@ -118923,7 +118901,7 @@ gcK
 ktB
 dXH
 ePh
-hFY
+ePh
 gqE
 xQE
 xRp
@@ -119437,7 +119415,7 @@ gcK
 ktB
 ici
 xRp
-xRp
+hFY
 xpI
 ydY
 igZ
@@ -119951,7 +119929,7 @@ gcK
 ktB
 ici
 xRp
-xRp
+hFY
 xpI
 ydY
 xRp
@@ -120465,7 +120443,7 @@ gcK
 ktB
 fBN
 xRp
-fCp
+xRp
 xpI
 hlX
 ikn
