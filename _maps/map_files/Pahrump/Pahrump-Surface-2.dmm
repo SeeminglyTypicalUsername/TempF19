@@ -13345,10 +13345,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "fCp" = (
-/obj/structure/destructible/tribal_torch/lit{
-	layer = ABOVE_MOB_LAYER;
-	pixel_x = 10
-	},
+/obj/structure/destructible/tribal_torch/lit,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	color = "#e4e4e4"
 	},
