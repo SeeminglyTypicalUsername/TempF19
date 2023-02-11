@@ -13045,6 +13045,14 @@
 "fyf" = (
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"fyl" = (
+/mob/living/simple_animal/hostile/handy/protectron/nukatron{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/ruins{
+	icon_state = "rubbleslab"
+	},
+/area/f13/ncr)
 "fym" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -17984,6 +17992,7 @@
 /area/f13/building)
 "hsb" = (
 /obj/structure/chair/bench,
+/obj/effect/landmark/start/f13/raider,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "shadowleft"
 	},
@@ -21825,6 +21834,7 @@
 /area/f13/building)
 "iXe" = (
 /obj/structure/chair/bench,
+/obj/effect/landmark/start/f13/raider,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalleftborderright0"
 	},
@@ -28413,6 +28423,15 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"lOo" = (
+/obj/structure/HMG{
+	dir = 8;
+	name = "Protector of the Faith"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/cotc)
 "lOx" = (
 /obj/machinery/microwave/stove,
 /turf/open/floor/f13{
@@ -30383,17 +30402,6 @@
 /turf/open/indestructible/ground/outside/desert/sonora{
 	dir = 4;
 	icon_state = "desertsmooth8"
-	},
-/area/f13/wasteland)
-"mFa" = (
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 4
-	},
-/mob/living/simple_animal/hostile/handy/protectron/nukatron{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain0"
 	},
 /area/f13/wasteland)
 "mFe" = (
@@ -33322,6 +33330,7 @@
 /area/f13/tunnel)
 "nUa" = (
 /obj/structure/chair/bench,
+/obj/effect/landmark/start/f13/raider,
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
 "nUc" = (
@@ -40963,12 +40972,6 @@
 /obj/item/clothing/under/f13/doctor,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
 /area/f13/building)
-"rsH" = (
-/mob/living/simple_animal/hostile/handy/protectron/nukatron,
-/turf/open/floor/f13{
-	icon_state = "bluerustysolid"
-	},
-/area/f13/ncr)
 "rtk" = (
 /obj/machinery/light/broken,
 /turf/open/floor/plasteel/f13/vault_floor/green/white,
@@ -40982,6 +40985,12 @@
 /obj/structure/table/booth,
 /turf/open/floor/plasteel/darkred,
 /area/f13/village)
+"ruo" = (
+/obj/effect/landmark/start/f13/raider,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain1"
+	},
+/area/f13/wasteland)
 "ruw" = (
 /obj/structure/table,
 /obj/item/kitchen/rollingpin,
@@ -43387,6 +43396,14 @@
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
+"sxE" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/ammo_box/magazine/ammobelt,
+/obj/item/ammo_box/magazine/ammobelt,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/ncr)
 "sxT" = (
 /obj/machinery/shower{
 	dir = 4
@@ -46048,6 +46065,17 @@
 	icon_state = "verticaloutermainbottom"
 	},
 /area/f13/wasteland)
+"tEg" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/handy/protectron/nukatron{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain0"
+	},
+/area/f13/wasteland)
 "tEq" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/head/helmet/gladiator,
@@ -46822,15 +46850,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/building)
-"tXU" = (
-/obj/structure/HMG{
-	dir = 8;
-	name = "Protector of the Faith"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/cotc)
 "tXX" = (
 /obj/structure/table/wood/settler,
 /obj/item/cosmetics/lipstick/purple,
@@ -47496,12 +47515,7 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "ukQ" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/ammo_box/magazine/ammobelt,
-/obj/item/ammo_box/magazine/ammobelt,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
+/turf/closed/indestructible/f13vaultrusted,
 /area/f13/ncr)
 "ukV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -48483,6 +48497,10 @@
 	icon_state = "outerborder"
 	},
 /area/f13/wasteland)
+"uFz" = (
+/obj/effect/landmark/start/f13/raider,
+/turf/open/indestructible/ground/outside/road,
+/area/f13/wasteland)
 "uFB" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -48874,6 +48892,12 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"uPu" = (
+/mob/living/simple_animal/hostile/handy/protectron/nukatron,
+/turf/open/floor/f13{
+	icon_state = "darkredfull"
+	},
+/area/f13/ncr)
 "uPy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/newspaper{
@@ -49235,9 +49259,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-"uWf" = (
-/turf/closed/indestructible/f13vaultrusted,
-/area/f13/ncr)
 "uWA" = (
 /obj/structure/table/wood,
 /obj/item/kitchen/knife,
@@ -49634,6 +49655,12 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/indestructible/ground/outside/road,
 /area/f13/wasteland)
+"vgI" = (
+/mob/living/simple_animal/hostile/handy/protectron/nukatron,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/ncr)
 "vhm" = (
 /obj/effect/decal/marking{
 	icon_state = "doubleverticaltop"
@@ -53969,12 +53996,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"xgo" = (
-/mob/living/simple_animal/hostile/handy/protectron/nukatron,
-/turf/open/floor/f13{
-	icon_state = "darkredfull"
-	},
-/area/f13/ncr)
 "xgu" = (
 /obj/machinery/light{
 	pixel_x = -16
@@ -55348,14 +55369,6 @@
 /obj/structure/table/booth,
 /turf/open/floor/plasteel/darkred,
 /area/f13/village)
-"xIE" = (
-/mob/living/simple_animal/hostile/handy/protectron/nukatron{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/ruins{
-	icon_state = "rubbleslab"
-	},
-/area/f13/ncr)
 "xIU" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -59084,10 +59097,10 @@ ktB
 (10,1,1) = {"
 ktB
 xrZ
-xIE
+fyl
 bkk
 bkk
-xgo
+uPu
 fPb
 phN
 phN
@@ -60630,7 +60643,7 @@ eZI
 kfN
 xrZ
 jFl
-rsH
+vgI
 mRJ
 knb
 qQQ
@@ -62969,7 +62982,7 @@ bZg
 uKz
 fGx
 fGx
-ukQ
+sxE
 bZg
 egt
 uKz
@@ -64736,7 +64749,7 @@ gcK
 ktB
 "}
 (32,1,1) = {"
-uWf
+ukQ
 aDX
 brE
 tVN
@@ -64993,7 +65006,7 @@ gcK
 ktB
 "}
 (33,1,1) = {"
-uWf
+ukQ
 aSo
 aSo
 aSo
@@ -65250,7 +65263,7 @@ gcK
 ktB
 "}
 (34,1,1) = {"
-uWf
+ukQ
 aSo
 xEA
 bea
@@ -65507,7 +65520,7 @@ gcK
 ktB
 "}
 (35,1,1) = {"
-uWf
+ukQ
 aSo
 bea
 bMo
@@ -65764,7 +65777,7 @@ gcK
 ktB
 "}
 (36,1,1) = {"
-uWf
+ukQ
 aSo
 bea
 bMo
@@ -66021,7 +66034,7 @@ gcK
 ktB
 "}
 (37,1,1) = {"
-uWf
+ukQ
 aSo
 bMo
 bMo
@@ -66278,7 +66291,7 @@ gcK
 ktB
 "}
 (38,1,1) = {"
-uWf
+ukQ
 aSo
 buO
 buO
@@ -66535,7 +66548,7 @@ gcK
 ktB
 "}
 (39,1,1) = {"
-uWf
+ukQ
 aSo
 cCh
 dRF
@@ -66792,7 +66805,7 @@ gcK
 ktB
 "}
 (40,1,1) = {"
-uWf
+ukQ
 xrZ
 dRF
 dRF
@@ -67049,7 +67062,7 @@ gcK
 ktB
 "}
 (41,1,1) = {"
-uWf
+ukQ
 xrZ
 dxe
 cCh
@@ -67306,7 +67319,7 @@ gcK
 ktB
 "}
 (42,1,1) = {"
-uWf
+ukQ
 xrZ
 viD
 dRF
@@ -67563,7 +67576,7 @@ gcK
 ktB
 "}
 (43,1,1) = {"
-uWf
+ukQ
 aSo
 viD
 tCQ
@@ -67820,7 +67833,7 @@ gcK
 ktB
 "}
 (44,1,1) = {"
-uWf
+ukQ
 aSo
 viD
 dRF
@@ -68077,7 +68090,7 @@ gcK
 ktB
 "}
 (45,1,1) = {"
-uWf
+ukQ
 aSo
 cCh
 liv
@@ -68334,7 +68347,7 @@ gcK
 ktB
 "}
 (46,1,1) = {"
-uWf
+ukQ
 aSo
 dRF
 dRF
@@ -68591,7 +68604,7 @@ gcK
 ktB
 "}
 (47,1,1) = {"
-uWf
+ukQ
 aSo
 aSo
 hvF
@@ -68848,7 +68861,7 @@ gcK
 ktB
 "}
 (48,1,1) = {"
-uWf
+ukQ
 aSo
 auc
 bMo
@@ -69105,7 +69118,7 @@ gcK
 ktB
 "}
 (49,1,1) = {"
-uWf
+ukQ
 aSo
 bAo
 hfz
@@ -69362,7 +69375,7 @@ gcK
 ktB
 "}
 (50,1,1) = {"
-uWf
+ukQ
 aSo
 aSo
 aSo
@@ -69619,7 +69632,7 @@ gcK
 ktB
 "}
 (51,1,1) = {"
-uWf
+ukQ
 ayH
 ayH
 ayH
@@ -91838,7 +91851,7 @@ pcG
 pIc
 onn
 bFJ
-mFa
+tEg
 bFJ
 cam
 unI
@@ -91874,7 +91887,7 @@ nyV
 jJs
 oli
 oli
-tXU
+lOo
 oli
 bor
 nyV
@@ -111623,7 +111636,7 @@ sQX
 sQX
 sQX
 ubg
-sQX
+uFz
 sQX
 sQX
 nUa
@@ -112395,9 +112408,9 @@ sQX
 sQX
 sQX
 tNj
-hOl
+ruo
 sQX
-sQX
+uFz
 sQX
 gmX
 koD
@@ -113168,7 +113181,7 @@ pRo
 pRo
 pRy
 sQX
-sQX
+uFz
 wGI
 gmX
 koD
@@ -114194,7 +114207,7 @@ qci
 sQX
 kLy
 sQX
-sQX
+uFz
 sQX
 qci
 qci
